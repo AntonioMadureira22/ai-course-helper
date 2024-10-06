@@ -8,7 +8,7 @@ const fetchAIResponse = async (subject, question) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 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`, 
+        'Authorization': `Bearer {api_key}`, 
       },
       body: JSON.stringify({
         model: "text-davinci-003", // OpenAI model to use
